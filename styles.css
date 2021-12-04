@@ -20,4 +20,5 @@ input {
     display: inline-block;
     font-size: 3rem;
     margin: 10px 20px;
+    cursor: pointer; /* pointer on hover */
 }
