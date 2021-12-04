@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+#title {
+    font-size: 5rem;
+}
+
+input[type = number]::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+input {
+    margin: 10px;
+}
+
+.operators {
+    display: inline-block;
+    font-size: 3rem;
+    margin: 10px 20px;
+}
