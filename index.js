@@ -5,8 +5,9 @@
     let field3 = document.querySelector('#result')
     let my_operators = Array.from(document.getElementsByClassName('operators'))
     
+   
     my_operators.forEach((operator)=>{
-        operator.addEventListener('click', ()=>{
+        operator.addEventListener('click', function(){
             dostuff(operator.innerHTML)
         })
     })
